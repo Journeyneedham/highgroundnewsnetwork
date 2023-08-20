@@ -1,0 +1,59 @@
+.do-not-click-button {
+
+    background-color: red;
+
+
+}
+
+.fw-600 {
+
+    font-weight: 600!important;
+
+}
+
+
+.primary-icon-class {
+
+    background-color: rgb(27, 153, 255);
+    border-radius: 50px;
+    padding-left: .55em;
+    padding-right: .55em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+
+
+}
+
+@media (max-width: 575.98px) { 
+
+    .carousel-inner {
+
+        height: 700px;
+
+    }
+
+ }
+
+
+ @media (min-width: 576px) and (max-width: 991.98px) {
+
+
+    .carousel-inner {
+
+        height: 400px;
+
+    }
+
+
+ }
+
+ @media (min-width: 992px) {
+
+
+    .carousel-inner {
+
+        height: 300px;
+
+    }
+
+ }

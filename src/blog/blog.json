@@ -1,0 +1,7 @@
+{
+
+    "layout": "article.njk",
+    "tags": "post",
+    "post_type": "News"
+
+}
