@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/images/" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+collections: 
+  - name: "blog"
+    label: "Blog"
+    folder: "src/blog" #where it's saving the blog posts
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - { label: "Title", name: "title", widget: "string" } # the name is what's in the md file, the label is what's displayed
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+
+
+#publish_mode: editorial_workflow # If we want to turn on the ability to save drafts
