@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
     */
     eleventyConfig.addPassthroughCopy('./src/images');
     eleventyConfig.addPassthroughCopy('./src/css');
+    eleventyConfig.addPassthroughCopy('./src/admin');
 
     /*  Custom filter for limiting amount of posts since 11ty outputs arrays instead of the actual posts */
     eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
