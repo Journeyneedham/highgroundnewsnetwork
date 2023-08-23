@@ -3,7 +3,7 @@ title: "Revenge of the sith voted #1 star wars movie"
 author: "Journey Needham"
 image: /images/revenge-of-the-club.jpg
 post_type: High Ground
-tags: ["post", "featured"]
+tags: ["featured"]
 date: 2023-08-16
 description: "Ever wonder what the general chicken with rice comes with??"
 ---

@@ -11,6 +11,14 @@
 
 }
 
+.limit-length-class {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
 
 .primary-icon-class {
 
@@ -26,9 +34,27 @@
 
 @media (max-width: 575.98px) { 
 
+    html {
+
+        font-size: 1em;
+
+    }
+
+    h1, h2, h3, h4 {
+
+        font-size: 1.75em!important;
+
+    }
+
+    .hide-spacer-col {
+
+        display: none;
+
+    }
+
     .carousel-inner {
 
-        height: 700px;
+        height: 550px;
 
     }
 
@@ -40,7 +66,7 @@
 
     .carousel-inner {
 
-        height: 400px;
+        height: 700px;
 
     }
 
