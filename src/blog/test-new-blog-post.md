@@ -1,10 +1,10 @@
 ---
-title: "73% increase in spiderbites within the jewish population"
+title: "73% increase in spiderbites within the lorem ipsum population"
 author: "Journey Needham"
 image: /images/man_eating.jpg
 tags: ["featured"]
 date: 2023-08-15
-description: "cows go mooo"
+description: "Lorem Ipsum"
 ---
 
 # Mora una priora medios

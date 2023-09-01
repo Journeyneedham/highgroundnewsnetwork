@@ -5,7 +5,7 @@ image: /images/revenge-of-the-club.jpg
 post_type: High Ground
 tags: ["featured"]
 date: 2023-08-16
-description: "Ever wonder what the general chicken with rice comes with??"
+description: "Have you seen Obi-wan's beard??"
 ---
 
 # Mora una priora medios
